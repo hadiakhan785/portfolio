@@ -20,6 +20,7 @@ let projects = [
         url: "https://hadiakhan785.github.io/making-life-matters/"
     },
     {
+        name: "Calculator",
         img: "multi-function-calc",
         url: "https://hadiakhan785.github.io/multi-function-calculator/"
     },

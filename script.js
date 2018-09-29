@@ -25,7 +25,7 @@ function initialize() {
           data-aos-duration="2000" data-aos-mirror="true" data-aos-once="false">
             <div class="project-img" style="background-image: url('${projects[i].img}.png')" ></div>
             <div class="project-url">
-              <a href="${projects[i].url}" target="_blank">Project</a>
+              <a href="${projects[i].url}" target="_blank">${projects[i].name}</a>
             </div>
           </div>
         `;

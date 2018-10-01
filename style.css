@@ -156,6 +156,15 @@ i {
     color: white;
 }
 
+.btn i {
+    font-size: 1em;
+}
+
+.btn:hover .fa-arrow-right{
+    transition: 0.9s;
+    transform: rotate(90deg);
+}
+
 .skills{
     display: flex;
     flex-direction: column;
@@ -257,8 +266,46 @@ i {
     border: 1px solid #BDBDBD;
 }
 
-.project-url a{
+.project-img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.project-url, .github-repo-url{
     text-align: center;
+    background-color: #64C7CC;
+    padding: 1em;
+}
+
+.project-url a, .github-repo-url a{
+    color: white;
+    font-weight: 900;
+}
+
+.project-url a:hover, .github-repo-url a:hover{
+    text-decoration: none;
+    color: #616161;
+    transition: color 0.3s ease-in-out;
+}
+
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: #616161;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    color: white;
+    font-size: 1.4em;
+}
+
+.contact hr{
+    background-color: white;
 }
 
 
